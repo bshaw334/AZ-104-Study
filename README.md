@@ -1,2 +1,2 @@
 # DevOps-Study
-##Git Quick Learn
+## Git Quick Learn
