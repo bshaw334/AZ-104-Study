@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>PowerShell</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>PowerShell</h1>
+        <p>A few things I've picked up over my studying for AZ-104 and more.</p>
+    <h2>Creating Variables</h2>
+    <p>Variables will make scripting simplified by taking known information and simplifying how it is presented to the script </p>
+    <h3>Examples</h3>
+    <p>Below I created a variable named $rg to pull in the name of a single resource group. This step can also be performed by typing/pasting a static resource group name.</p>
+    <pre><code>rg$ = (Get-AzResourceGroup).ResourceGroupName</code></pre>
+    <p>Below I created a variable named $RG to query the resource group list and list them in tab seperated value (tsv).</p>
+    <pre><code>RG$ = az group list --query [].name -o tsv</code></pre>
+</body>
+</html>
