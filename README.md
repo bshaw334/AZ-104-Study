@@ -2,7 +2,7 @@
 ## Random Studying
 
 ### I will cover the topics.
-- [100 Days of Cloud Log](100daysofcloud-log.html)
+- [100 Days of Cloud Log](100day.html)
 - [Learning Git](git.html)
 - [Learning Bash Scripting](bash.html)
 - [Learning PowerShell Scripting](powershell.html)
